@@ -1,0 +1,3 @@
+# cmd misreads labels in LF-only batch files, so .cmd files are stored with
+# CRLF and never converted, including in GitHub's "Download ZIP".
+*.cmd -text
